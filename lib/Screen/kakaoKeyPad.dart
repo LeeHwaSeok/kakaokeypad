@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:funny_kakaokeyboard/Screen/KeyboardKey.dart';
+import 'package:funny_kakaokeyboard/Screen/KeyboardKeyboardComponent.dart';
 import 'package:intl/intl.dart';
 
-class kakaoKeyboard extends StatefulWidget {
+class kakaoKeyPad extends StatefulWidget {
   @override
-  State<kakaoKeyboard> createState() => _kakaoKeyboardState();
+  State<kakaoKeyPad> createState() => _kakaoKeyboardState();
 }
 
-class _kakaoKeyboardState extends State<kakaoKeyboard> {
+class _kakaoKeyboardState extends State<kakaoKeyPad> {
   //추후에 데이터를 추가해준다는 약속 late
   late List<List<dynamic>> keys;
   late String amount;

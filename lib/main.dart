@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:funny_kakaokeyboard/Screen/kakaoKeyboard.dat.dart';
+import 'package:funny_kakaokeyboard/Screen/kakaoKeyPad.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,7 +29,7 @@ class _main extends StatelessWidget {
       //     elevation: 0,
       //
       //     title: Text('카카오 키패드',style: TextStyle(color: Colors.black,fontWeight: FontWeight.w700),),backgroundColor: Color(0xffffe404) ),
-      body: kakaoKeyboard(),
+      body: kakaoKeyPad(),
     );
   }
 }
